@@ -37,8 +37,8 @@ def handle_response(message) -> str:
         elif lower_message[6:] == ' hello' or lower_message[6:] == ' hi':
             return "Hey there, I'm Cayde!"
 
-        elif lower_message[6:] == ' tell germy he lame':
-            return "u lame germy"
+        elif lower_message[6:] == ' tell Germy hes lame':
+            return "u lame Germy"
 
         else:
             return 'Hello, I am Cayde-7. I was created solely for purpose of retrieving the daily lost sector location and rewards data for my owner @kibi#8987 please direct any questions/feedback to him.'
